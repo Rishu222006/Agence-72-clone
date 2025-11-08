@@ -1,13 +1,65 @@
-# React + Vite
+# Description:
+    - This project is a direct clone of the Canadian website Agence-72 which is a digital marketing agency.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    - I do not the claim the ownership of content, concept or design of this website and full credit for it goes to the original website. I will provide URL of the original website for reference.
 
-Currently, two official plugins are available:
+    - I have only created this project for the purpose of learning, education and showcasing my frontend web development skills. I hope you will like this project. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    *** This project is not a complete clone. Not all of the content and/or pages have been copied as this project is just to showcase my skills. Only important pages with good UI and animation aaspects have been copied by me. ***
 
-## Expanding the ESLint configuration
+# Tech Stack Used:
+    - HTML
+    - CSS
+    - JavaScript
+    - React.js
+    - Tailwind CSS
+    - GSAP Animation library.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Agence-72-clone
+# File Structure:
+.
+├── README.md
+├── package.json
+├── package-lock.json
+├── index.html
+├── vite.config.js
+├── eslint.config.js
+├── .gitignore
+│
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── main.jsx
+│   ├── index.css
+│   │
+│   ├── assets/
+│   │   ├── vid_intro.mp4
+│   │   ├── react.svg
+│   │   ├── cross-23.svg
+│   │   ├── Lausanne-300.woff2
+│   │   └── Lausanne-500.woff2
+│   │
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── stairs.jsx
+│   │   │   └── Navcontext.jsx
+│   │   │
+│   │   ├── home/
+│   │   │   ├── HomeTop.jsx
+│   │   │   ├── HomeBody.jsx
+│   │   │   ├── HomeBottom.jsx
+│   │   │   └── Video.jsx
+│   │   │
+│   │   └── navigation/
+│   │       ├── Nvbar.jsx
+│   │       └── FullNav.jsx
+│   │
+│   └── pages/
+│       ├── home.jsx
+│       ├── project.jsx
+│       └── About.jsx
+│
+└── ...
+
+# Original Website's URL: 
+https://k72.ca/en
