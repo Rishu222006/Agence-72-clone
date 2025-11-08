@@ -1,0 +1,10 @@
+import React from 'react'
+
+const Video = () => {
+    return (
+        <video className=' h-full w-full object-cover'
+            autoPlay loop muted src='src\assets\vid_intro.mp4'></video>
+    )
+}
+
+export default Video
