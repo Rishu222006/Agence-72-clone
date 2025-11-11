@@ -27,11 +27,11 @@ const Project = () => {
     }
     ];
 
-    useGSAP(function () {
+    /*useGSAP(function () {
         gsap.from('.hero', {
             height: 0
         })
-    })
+    })*/
 
     return (
         <div className='p-4 overflow-y-hidden bg-white'>
