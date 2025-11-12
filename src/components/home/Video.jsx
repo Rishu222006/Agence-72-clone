@@ -3,7 +3,7 @@ import React from 'react'
 const Video = () => {
     return (
         <video className=' h-full w-full object-cover'
-            autoPlay loop muted src='public\vid_intro.mp4'></video>
+            autoPlay loop muted src='/vid_intro.mp4'></video>
     )
 }
 
