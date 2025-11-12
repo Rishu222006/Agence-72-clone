@@ -7,6 +7,12 @@
 
     *** This project is not a complete clone. Not all of the content and/or pages have been copied as this project is just to showcase my skills. Only important pages with good UI and animation aaspects have been copied by me. ***
 
+# Original Website's URL: 
+    https://k72.ca/en
+
+# Project Link:
+    https://agence-72-clone.vercel.app/
+
 # Tech Stack Used:
     - HTML
     - CSS
@@ -61,5 +67,3 @@
 │
 └── ...
 
-# Original Website's URL: 
-https://k72.ca/en
