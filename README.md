@@ -11,7 +11,11 @@
     https://k72.ca/en
 
 # Project Link:
-    https://agence-72-clone.vercel.app/
+    
+# Demo/Screenshots:
+    Live URL: https://agence-72-clone.vercel.app/
+
+    ![Project ScreenShot](public/image.png)
 
 # Tech Stack Used:
     - HTML
@@ -22,48 +26,52 @@
     - GSAP Animation library.
 
 # File Structure:
-.
-├── README.md
-├── package.json
-├── package-lock.json
-├── index.html
-├── vite.config.js
-├── eslint.config.js
-├── .gitignore
-│
-├── public/
-│   └── vite.svg
-│
-├── src/
-│   ├── main.jsx
-│   ├── index.css
-│   │
-│   ├── assets/
-│   │   ├── vid_intro.mp4
-│   │   ├── react.svg
-│   │   ├── cross-23.svg
-│   │   ├── Lausanne-300.woff2
-│   │   └── Lausanne-500.woff2
-│   │
-│   ├── components/
-│   │   ├── common/
-│   │   │   ├── stairs.jsx
-│   │   │   └── Navcontext.jsx
-│   │   │
-│   │   ├── home/
-│   │   │   ├── HomeTop.jsx
-│   │   │   ├── HomeBody.jsx
-│   │   │   ├── HomeBottom.jsx
-│   │   │   └── Video.jsx
-│   │   │
-│   │   └── navigation/
-│   │       ├── Nvbar.jsx
-│   │       └── FullNav.jsx
-│   │
-│   └── pages/
-│       ├── home.jsx
-│       ├── project.jsx
-│       └── About.jsx
-│
-└── ...
 
+.
+├── README.md                                                                               
+├── package.json                                                                            
+├── package-lock.json                                                                       
+├── index.html                                                                              
+├── vite.config.js                                                                          
+├── eslint.config.js                                                                        
+├── .gitignore                                                                              
+│                                                                                           
+├── public/                                                                                 
+│   ├── image.png                                                                           
+│   ├── vite.svg                                                                            
+│   └── vid_intro.mp4                                                                       
+│                                                                                           
+├── src/                                                                                    
+│   ├── main.jsx                                                                            
+│   ├── index.css                                                                           
+│   │                                                                                       
+│   ├── assets/                                                                             
+│   │   ├── react.svg                                                                       
+│   │   ├── cross-23.svg                                                                    
+│   │   ├── Lausanne-300.woff2                                                              
+│   │   └── Lausanne-500.woff2                                                              
+│   │                                                                                       
+│   ├── components/                                                                         
+│   │   ├── common/                                                                         
+│   │   │   ├── stairs.jsx                                                                  
+│   │   │   └── Navcontext.jsx                                                              
+│   │   │                                                                                   
+│   │   ├── home/                                                                           
+│   │   │   ├── HomeTop.jsx                                                                 
+│   │   │   ├── HomeBody.jsx                                                                
+│   │   │   ├── HomeBottom.jsx                                                              
+│   │   │   └── Video.jsx                                                                   
+│   │   │                                                                                   
+│   │   ├── navigation/                                                                     
+│   │   │   ├── Nvbar.jsx                                                                   
+│   │   │   └── FullNav.jsx                                                                 
+│   │   │                                                                                   
+│   │   └── project/                                                                        
+│   │       └── ProjectCard.jsx                                                             
+│   │                                                                                       
+│   └── pages/                                                                              
+│       ├── home.jsx                                                                        
+│       ├── project.jsx                                                                     
+│       └── About.jsx                                                                       
+│                                                                                           
+└── ...                                                                                     
