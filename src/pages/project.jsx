@@ -19,14 +19,14 @@ const Project = () => {
         image2: "https://k72.ca/images/caseStudies/CRISIS24/crisis24_behance_1920X1200_cartes.jpg?w=1280&h=960&s=bb42c9de87442e1bffc542c332e07124"
     },
 
-    {
-        image1: "https://k72.ca/images/caseStudies/OSM/thumbnailimage_OSM.jpg?w=1280&h=960&s=7a3a71e610146472e6439cc8c765fccd",
-        image2: "https://k72.ca/images/caseStudies/BAnQ_100TEMPS/100temps_Thumbnail.jpg?w=1280&h=960&s=5c944bb014f8643227ad7bb117fccc14"
-    },
-    {
-        image1: "https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg",
-        image2: "https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
-    }
+        /*{
+            image1: "https://k72.ca/images/caseStudies/OSM/thumbnailimage_OSM.jpg?w=1280&h=960&s=7a3a71e610146472e6439cc8c765fccd",
+            image2: "https://k72.ca/images/caseStudies/BAnQ_100TEMPS/100temps_Thumbnail.jpg?w=1280&h=960&s=5c944bb014f8643227ad7bb117fccc14"
+        },
+        {
+            image1: "https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg",
+            image2: "https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
+        }*/
     ];
 
     gsap.registerPlugin(ScrollTrigger);
@@ -35,7 +35,7 @@ const Project = () => {
         gsap.from('.hero', {
             height: '100px',
             stagger: {
-                amount: 0.4,
+                amount: 0.5
             },
             scrollTrigger: {
                 trigger: '.lol',
@@ -47,7 +47,7 @@ const Project = () => {
     });
 
     return (
-        <div className='p-4 overflow-y-hidden bg-white'>
+        <div className='p-2 overflow-y-hidden bg-white'>
             <div className='pt-[45vh]'>
                 <h2 className='font-[font_rk2] text-black text-[9vw] uppercase'>Projects</h2>
             </div>
