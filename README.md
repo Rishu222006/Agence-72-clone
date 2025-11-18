@@ -10,12 +10,16 @@
 # Original Website's URL: 
     https://k72.ca/en
 
-# Project Link:
-    
 # Demo/Screenshots:
     Live URL: https://agence-72-clone.vercel.app/
 
     ![Project ScreenShot](public/image.png)
+
+# Active Pages:
+    Home Page
+    About Page
+    Projects page
+    *** Navigation menu(full screen) ***
 
 # Tech Stack Used:
     - HTML
