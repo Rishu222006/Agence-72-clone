@@ -3,6 +3,7 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { useRef } from 'react'
 import { Navbarcontext } from '../common/Navcontext'
+import { Link } from 'react-router-dom'
 
 const FullNav = () => {
 
@@ -102,8 +103,10 @@ const FullNav = () => {
                 </div>
                 <div id='links' className=''>
                     <div className='link origin-top relative border-white border-y-1'>
-                        <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Projects</h1>
-                        <div className='moveLink text-black bg-orange-400 flex top-0 absolute'>
+                        <Link to={'/projects'}>
+                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Projects</h1>
+                        </Link>
+                        <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
                                 <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To See Everything</h2>
                                 <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
@@ -119,8 +122,10 @@ const FullNav = () => {
                         </div>
                     </div>
                     <div className='link origin-top relative border-white border-y-1'>
-                        <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>About Us</h1>
-                        <div className='moveLink text-black bg-orange-400 flex top-0 absolute'>
+                        <Link to={'/about'}>
+                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>About Us</h1>
+                        </Link>
+                        <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
                                 <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Know Everything</h2>
                                 <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/teamMembers/MEGGIE_640X290_2-640x290.jpg" />
@@ -136,8 +141,10 @@ const FullNav = () => {
                         </div>
                     </div>
                     <div className='link origin-top relative border-white border-y-1'>
-                        <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Contact</h1>
-                        <div className='moveLink text-black bg-orange-400 flex top-0 absolute'>
+                        <Link to={'/'}>
+                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Contact</h1>
+                        </Link>
+                        <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
                                 <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Send A Fax</h2>
                                 <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
@@ -153,8 +160,10 @@ const FullNav = () => {
                         </div>
                     </div>
                     <div className='link origin-top relative border-white border-y-1'>
-                        <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Blog</h1>
-                        <div className='moveLink text-black bg-orange-400 flex top-0 absolute'>
+                        <Link to={'/'}>
+                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Blog</h1>
+                        </Link>
+                        <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
                                 <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
                                 <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/blog/blogImg/50ff59cc0550df5b36543807a58db98c52e01a22274a317eafbfa5266941579b-640x290.png" />
