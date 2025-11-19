@@ -1,10 +1,17 @@
-import React, { useContext, useRef } from 'react'
+import React, { useContext, useEffect, useRef } from 'react'
+import { useLocation } from 'react-router-dom';
 import { Navbarcontext } from '../common/Navcontext';
 
 const Nvbar = () => {
 
     const navRef = useRef(null);
     const [navOpen, setNavOpen] = useContext(Navbarcontext);
+
+    const location = useLocation();
+
+    useEffect(() => {
+        setNavOpen(false);
+    }, [location.pathname]);
 
     return (
         <div className='flex fixed w-full top-0 items-start justify-between z-10'>
