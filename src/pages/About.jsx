@@ -15,7 +15,7 @@ const About = () => {
                 trigger: imgdivRef.current,
                 start: "top 28%",
                 scrub: 1,
-                end: 'top -175%',
+                end: 'top -150%',
                 pin: true,
                 pinSpacing: true,
                 pinReparent: true,
@@ -53,7 +53,7 @@ const About = () => {
     ]
 
     return (<>
-        <div className='section1 mt-[20vh]'>
+        <div className='section1 mt-[20vh] text-black'>
             <div ref={imgdivRef} className='absolute overflow-hidden top-80 lg:h-[20vw] h-[30vw] lg:w-[15vw] w-[25vw] lg:left--[30vw] left-[30vw] lg:rounded-3xl rounded-xl'>
                 <img ref={imageRf} src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg"
                     className='h-full object-cover w-full' />
