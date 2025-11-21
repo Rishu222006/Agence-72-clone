@@ -160,7 +160,7 @@ const FullNav = () => {
                         </div>
                     </div>
                     <div className='link origin-top relative border-white border-y-1'>
-                        <Link to={'/'}>
+                        <Link to={'/blogs'}>
                             <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Blog</h1>
                         </Link>
                         <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
