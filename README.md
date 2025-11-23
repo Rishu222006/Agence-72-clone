@@ -19,6 +19,7 @@
     Home Page
     About Page
     Projects page
+    Blogs Page
     *** Navigation menu(full screen) ***
 
 # Tech Stack Used:
