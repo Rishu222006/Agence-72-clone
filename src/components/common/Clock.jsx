@@ -15,7 +15,7 @@ const Clock = () => {
 
     return (
         <div className='font-[font_rk2] flex flex-row'>
-            <div className="w-8 h-8 rounded-full bg-[url('/globe.svg')] bg-cover animate-spin-slow" />
+            <div className="w-8 h-8 flex-shrink-0 rounded-full bg-[url('/globe.svg')] bg-cover animate-spin-slow" />
 
             <div className='flex flex-row text-[25px]'>
                 <h2 className='px-4'>

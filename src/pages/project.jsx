@@ -3,6 +3,7 @@ import ProjectCard from '../components/project/ProjectCard'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import Base from "../components/common/footer";
 
 const Project = () => {
 
@@ -47,17 +48,20 @@ const Project = () => {
     });
 
     return (
-        <div className='lg:p-4 p-2 overflow-y-hidden bg-white'>
-            <div className='pt-[45vh]'>
-                <h2 className='font-[font_rk2] text-black lg:text-[9.5vw] text-7xl uppercase'>Projects</h2>
+        <div>
+            <div className='lg:p-4 p-2 overflow-y-hidden bg-white'>
+                <div className='pt-[45vh]'>
+                    <h2 className='font-[font_rk2] text-black lg:text-[9.5vw] text-7xl uppercase'>Projects</h2>
+                </div>
+                <div className='-lg:mt-20 lol'>
+                    {projects.map(function (elem, idx) {
+                        return <div key={idx} className='hero h-[600px] lg:h-[850px] w-full mb-4 flex lg:flex-row flex-col lg:gap-4 gap-2'>
+                            <ProjectCard image1={elem.image1} image2={elem.image2} />
+                        </div>
+                    })}
+                </div>
             </div>
-            <div className='-lg:mt-20 lol'>
-                {projects.map(function (elem, idx) {
-                    return <div key={idx} className='hero h-[600px] lg:h-[850px] w-full mb-4 flex lg:flex-row flex-col lg:gap-4 gap-2'>
-                        <ProjectCard image1={elem.image1} image2={elem.image2} />
-                    </div>
-                })}
-            </div>
+            <Base />
         </div>
     )
 }
