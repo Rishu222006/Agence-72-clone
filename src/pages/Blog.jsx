@@ -1,5 +1,6 @@
 import React from 'react'
 import BlogCard from '../components/Blog/BlogCard'
+import Base from '../components/common/footer'
 
 const Blog = () => {
     return (
@@ -27,6 +28,7 @@ const Blog = () => {
                     date1={"May 9, 2025"}
                     text1={"Advice & Customer relations: A duo that cannot be briefed, that is built"} />
             </div>
+            <Base />
         </div>
     )
 }
