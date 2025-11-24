@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import React, { useRef } from 'react'
+import Base from '../components/common/footer';
 
 const About = () => {
 
@@ -77,6 +78,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Base />
     </>
     )
 }
