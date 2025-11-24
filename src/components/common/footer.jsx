@@ -1,4 +1,5 @@
 import React from "react";
+import Clock from "./Clock";
 
 const Base = () => {
     const scrollToTop = () => {
@@ -30,23 +31,26 @@ const Base = () => {
             </div>
 
             <div className="flex flex-row">
+                <div className="mr-[150px] ml-[20px]">
+                    <Clock />
+                </div>
                 <div className="flex flex-row justify-center items-center px-20">
-                    <div className="px-8 font-[font_rk1] hover:text-orange-300 cursor-pointer">
+                    <div className="px-4 font-[font_rk1] hover:text-orange-300 cursor-pointer">
                         PRIVACY POLICY
                     </div>
-                    <div className="px-8 font-[font_rk1] hover:text-orange-300 cursor-pointer">
+                    <div className="px-4 font-[font_rk1] hover:text-orange-300 cursor-pointer">
                         PRIVACY NOTICE
                     </div>
-                    <div className="px-8 font-[font_rk1] hover:text-orange-300 cursor-pointer">
+                    <div className="px-4 font-[font_rk1] hover:text-orange-300 cursor-pointer">
                         ETHICAL REPORT
                     </div>
-                    <div className="px-8 font-[font_rk1] hover:text-orange-300 cursor-pointer">
+                    <div className="px-4 font-[font_rk1] hover:text-orange-300 cursor-pointer">
                         CONSENT OPTIONS
                     </div>
                 </div>
-                <div className="ml-[40vh]">
+                <div className="ml-[150px]">
                     <button onClick={scrollToTop}
-                        className="px-8 font-[font_rk2] text-[25px] hover:text-orange-300 cursor-pointer"
+                        className="font-[font_rk2] text-[25px] hover:text-orange-300 cursor-pointer"
                     >Back To Top
                     </button>
                 </div>
