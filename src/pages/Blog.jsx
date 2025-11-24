@@ -10,13 +10,13 @@ const Blog = () => {
             </div>
             <div className='text-black flex flex-row font-[font_rk1] text-xl font-bold items-justify-center mt-[25vh] ml-[140vh]'>
                 <div className='pl-4 pr-4 font-[font_rk2]'>Categories:</div>
-                <div className='pl-4 pr-4 bg-gray-200'>All</div>
-                <div className='pl-4 pr-4 bg-gray-200'>Creation</div>
-                <div className='pl-4 pr-4 bg-gray-200'>Tech & AI</div>
-                <div className='pl-4 pr-4 bg-gray-200'>Advice</div>
+                <div className='pl-4 pr-4 bg-gray-200 hover:bg-black hover:text-white'>All</div>
+                <div className='pl-4 pr-4 bg-gray-200 hover:bg-black hover:text-white'>Creation</div>
+                <div className='pl-4 pr-4 bg-gray-200 hover:bg-black hover:text-white'>Tech & AI</div>
+                <div className='pl-4 pr-4 bg-gray-200 hover:bg-black hover:text-white'>Advice</div>
             </div>
             <div className='w-full bg-black h-[1px] mt-3'></div>
-            <div className='mx-4 my-4'>
+            <div className='mx-4 my-4 space-y-20'>
                 <BlogCard image1={"https://k72.ca/images/blog/blogImg/K72_article_ChatGPT_blogue.jpg?w=640&h=290&s=cec2aa341c22369e36e602c558c49e2a"}
                     date1={"October 3, 2025"}
                     text1={"Write an article about writing an article with ChatGPT: diving into mise en abyme"}
