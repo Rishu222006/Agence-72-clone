@@ -81,7 +81,7 @@ const FullNav = () => {
     }, [navOpen]);
 
     return (
-        <div ref={screenRef} id='fullnav' className='fullnav hidden h-screen w-full overflow-x-hidden absolute z-10'>
+        <div ref={screenRef} id='fullnav' className='fullnav hidden h-screen w-screen pointer-events-auto overflow-x-hidden fixed inset-0 z-50'>
             <div className='h-screen w-full fixed'>
                 <div className='h-full w-full flex'>
                     <div className='navanim h-full w-1/5 bg-black'></div>
