@@ -5,7 +5,7 @@ import Clock from '../common/Clock'
 const HomeBottom = () => {
   return (
     <div className="relative w-full">
-      <div className="absolute bottom-0 left-0">
+      <div className="absolute bottom-2 left-2">
         <Clock />
       </div>
       <div className='font-[font_rk2] flex items-center justify-center gap-2 w-full'>

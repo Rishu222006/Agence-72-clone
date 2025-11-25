@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { useRef } from 'react'
@@ -69,8 +69,19 @@ const FullNav = () => {
     }, [navOpen])
 
 
+    useEffect(() => {
+        if (navOpen) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "auto";
+        }
+        return () => {
+            document.body.style.overflow = "auto";
+        };
+    }, [navOpen]);
+
     return (
-        <div ref={screenRef} id='fullnav' className='fullnav hidden h-screen w-full overflow-x-hidden absolute z-10'>
+        <div ref={screenRef} id='fullnav' className='fullnav hidden h-screen w-screen pointer-events-auto overflow-x-hidden fixed inset-0 z-50'>
             <div className='h-screen w-full fixed'>
                 <div className='h-full w-full flex'>
                     <div className='navanim h-full w-1/5 bg-black'></div>
