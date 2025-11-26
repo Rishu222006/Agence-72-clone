@@ -16,10 +16,11 @@
     ![Project ScreenShot](public/image.png)
 
 # Active Pages:
-    Home Page
-    About Page
-    Projects page
-    Blogs Page
+    Following pages have been created with integrated nav bar, clock component and footer as required(refer official website):
+        - Home Page
+        - About Page
+        - Projects page
+        - Blogs Page
     *** Navigation menu(full screen) ***
 
 # Tech Stack Used:
@@ -44,10 +45,11 @@
 ├── public/                                                                                 
 │   ├── image.png                                                                           
 │   ├── vite.svg                                                                            
-│   └── vid_intro.mp4                                                                       
+│   └── vid_intro.mp4                                                           
 │                                                                                           
 ├── src/                                                                                    
-│   ├── main.jsx                                                                            
+│   ├── main.jsx 
+|   ├── App.jsx                                                                           
 │   ├── index.css                                                                           
 │   │                                                                                       
 │   ├── assets/                                                                             
@@ -56,10 +58,16 @@
 │   │   ├── Lausanne-300.woff2                                                              
 │   │   └── Lausanne-500.woff2                                                              
 │   │                                                                                       
-│   ├── components/                                                                         
+│   ├── components/  
+│   │   │
+│   │   ├── Blog/
+│   │   │   ├── BlogCard.jsx
+│   │   │
 │   │   ├── common/                                                                         
-│   │   │   ├── stairs.jsx                                                                  
-│   │   │   └── Navcontext.jsx                                                              
+│   │   │   ├── stairs.jsx       
+│   │   │   ├── Clock.jsx                                                     
+│   │   │   |── Navcontext.jsx    
+│   │   │   └── footer.jsx                                                        
 │   │   │                                                                                   
 │   │   ├── home/                                                                           
 │   │   │   ├── HomeTop.jsx                                                                 
@@ -77,6 +85,17 @@
 │   └── pages/                                                                              
 │       ├── home.jsx                                                                        
 │       ├── project.jsx                                                                     
-│       └── About.jsx                                                                       
+│       ├── About.jsx           
+│       └── Blog.jsx                                            
 │                                                                                           
 └── ...                                                                                     
+
+
+# Instructions to contribute/experiment:
+If you wish to contribute to this project or experiment, do not affect the main branch.
+Either create an issue or clone the repo.
+Before making changes follow the given steps:
+    - Clone repo/branch.
+    - In terminal run `npm install` command to install required modules.
+    - Then run `npm run dev` to view the project.
+    
