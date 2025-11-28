@@ -6,6 +6,7 @@ import Project from './pages/project'
 import Nvbar from './components/navigation/Nvbar'
 import FullNav from './components/navigation/FullNav'
 import Blog from './pages/Blog'
+import ComLink from './components/common/com_link'
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Project />} />
         <Route path='/blogs' element={<Blog />} />
+        <Route path='/com_link' element={<ComLink />} />
       </Routes>
     </div>
   )
