@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Base from "../components/common/footer";
+import { Link } from 'react-router-dom';
 
 const Project = () => {
 
@@ -56,9 +57,9 @@ const Project = () => {
                 </div>
                 <div className='-lg:mt-20 lol'>
                     {projects.map(function (elem, idx) {
-                        return <div key={idx} className='hero h-[600px] lg:h-[850px] w-full mb-4 flex lg:flex-row flex-col lg:gap-4 gap-2'>
+                        return <Link to={'/com_link'} key={idx} className='hero h-[600px] lg:h-[850px] w-full mb-4 flex lg:flex-row flex-col lg:gap-4 gap-2'>
                             <ProjectCard image1={elem.image1} image2={elem.image2} />
-                        </div>
+                        </Link>
                     })}
                 </div>
             </div>
