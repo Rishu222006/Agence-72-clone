@@ -50,8 +50,9 @@ const Project = () => {
     return (
         <div>
             <div className='lg:p-4 p-2 overflow-y-hidden bg-white'>
-                <div className='pt-[45vh]'>
+                <div className='pt-[45vh] flex flex-row'>
                     <h2 className='font-[font_rk2] text-black lg:text-[9.5vw] text-7xl uppercase'>Projects</h2>
+                    <h1 className='text-black font-bold text-[2vw]'>6</h1>
                 </div>
                 <div className='-lg:mt-20 lol'>
                     {projects.map(function (elem, idx) {
