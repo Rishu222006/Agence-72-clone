@@ -32,63 +32,46 @@
     - GSAP Animation library.
 
 # File Structure:
-
 .
-├── README.md                                                                               
-├── package.json                                                                            
-├── package-lock.json                                                                       
-├── index.html                                                                              
-├── vite.config.js                                                                          
-├── eslint.config.js                                                                        
-├── .gitignore                                                                              
-│                                                                                           
-├── public/                                                                                 
-│   ├── image.png                                                                           
-│   ├── vite.svg                                                                            
-│   └── vid_intro.mp4                                                           
-│                                                                                           
-├── src/                                                                                    
-│   ├── main.jsx 
-|   ├── App.jsx                                                                           
-│   ├── index.css                                                                           
-│   │                                                                                       
-│   ├── assets/                                                                             
-│   │   ├── react.svg                                                                       
-│   │   ├── cross-23.svg                                                                    
-│   │   ├── Lausanne-300.woff2                                                              
-│   │   └── Lausanne-500.woff2                                                              
-│   │                                                                                       
-│   ├── components/  
-│   │   │
+├── README.md
+├── package.json
+├── index.html
+├── vite.config.js
+├── public/
+│   ├── image.png
+│   ├── favicon.svg
+│   └── vid_intro.mp4
+├── src/
+│   ├── main.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── assets/
+│   │   └── (fonts, svgs)
+│   ├── components/
 │   │   ├── Blog/
-│   │   │   ├── BlogCard.jsx
-│   │   │
-│   │   ├── common/                                                                         
-│   │   │   ├── stairs.jsx       
-│   │   │   ├── Clock.jsx                                                     
-│   │   │   |── Navcontext.jsx    
-│   │   │   └── footer.jsx                                                        
-│   │   │                                                                                   
-│   │   ├── home/                                                                           
-│   │   │   ├── HomeTop.jsx                                                                 
-│   │   │   ├── HomeBody.jsx                                                                
-│   │   │   ├── HomeBottom.jsx                                                              
-│   │   │   └── Video.jsx                                                                   
-│   │   │                                                                                   
-│   │   ├── navigation/                                                                     
-│   │   │   ├── Nvbar.jsx                                                                   
-│   │   │   └── FullNav.jsx                                                                 
-│   │   │                                                                                   
-│   │   └── project/                                                                        
-│   │       └── ProjectCard.jsx                                                             
-│   │                                                                                       
-│   └── pages/                                                                              
-│       ├── home.jsx                                                                        
-│       ├── project.jsx                                                                     
-│       ├── About.jsx           
-│       └── Blog.jsx                                            
-│                                                                                           
-└── ...                                                                                     
+│   │   │   └── BlogCard.jsx
+│   │   ├── common/
+│   │   │   ├── Clock.jsx
+│   │   │   ├── com_link.jsx
+│   │   │   ├── footer.jsx
+│   │   │   ├── Navcontext.jsx
+│   │   │   └── stairs.jsx
+│   │   ├── home/
+│   │   │   ├── HomeBody.jsx
+│   │   │   ├── HomeBottom.jsx
+│   │   │   ├── HomeTop.jsx
+│   │   │   └── Video.jsx
+│   │   ├── navigation/
+│   │   │   ├── Nvbar.jsx
+│   │   │   └── FullNav.jsx
+│   │   └── project/
+│   │       └── ProjectCard.jsx
+│   └── pages/
+│       ├── home.jsx
+│       ├── project.jsx
+│       ├── About.jsx
+│       └── Blog.jsx
+└── ...
 
 
 # Instructions to contribute/experiment:
