@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react'
 import { useRef } from 'react'
 import { Navbarcontext } from '../common/Navcontext'
 import { Link } from 'react-router-dom'
+import Clock from '../common/Clock'
 
 const FullNav = () => {
 
@@ -115,7 +116,7 @@ const FullNav = () => {
                 <div id='links' className=''>
                     <div className='link origin-top relative border-white border-y-1'>
                         <Link to={'/projects'}>
-                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Projects</h1>
+                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-5 pt-3 uppercase'>Projects</h1>
                         </Link>
                         <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
@@ -134,7 +135,7 @@ const FullNav = () => {
                     </div>
                     <div className='link origin-top relative border-white border-y-1'>
                         <Link to={'/about'}>
-                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>About Us</h1>
+                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-5 pt-3 uppercase'>About Us</h1>
                         </Link>
                         <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
@@ -153,7 +154,7 @@ const FullNav = () => {
                     </div>
                     <div className='link origin-top relative border-white border-y-1'>
                         <Link to={'/'}>
-                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Contact</h1>
+                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-5 pt-3 uppercase'>Contact</h1>
                         </Link>
                         <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
@@ -172,7 +173,7 @@ const FullNav = () => {
                     </div>
                     <div className='link origin-top relative border-white border-y-1'>
                         <Link to={'/blogs'}>
-                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Blog</h1>
+                            <h1 className='font-[font_rk2] text-5xl lg:text-[6vw] text-center lg:leading-[0.8] lg:pt-5 pt-3 uppercase'>Blog</h1>
                         </Link>
                         <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
@@ -186,6 +187,45 @@ const FullNav = () => {
                                 <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/blog/blogImg/50ff59cc0550df5b36543807a58db98c52e01a22274a317eafbfa5266941579b-640x290.png" />
                                 <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
                                 <img className='h-29 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/blog/blogImg/ier.com-16107673482102220.gif" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='link mt-[10vh] flex flex-row'>
+                        <div className="mr-[135px] ml-0">
+                            <Clock />
+                        </div>
+                        <div className="flex flex-row justify-center items-center px-20">
+                            <div className="px-4 font-[font_rk1] hover:text-orange-300 cursor-pointer">
+                                PRIVACY POLICY
+                            </div>
+                            <div className="px-4 font-[font_rk1] hover:text-orange-300 cursor-pointer">
+                                PRIVACY NOTICE
+                            </div>
+                            <div className="px-4 font-[font_rk1] hover:text-orange-300 cursor-pointer">
+                                ETHICAL REPORT
+                            </div>
+                            <div className="px-4 font-[font_rk1] hover:text-orange-300 cursor-pointer">
+                                CONSENT OPTIONS
+                            </div>
+                        </div>
+                        <div>
+                            <div className="flex flex-row gap-2 pt-5  right-0 px-6">
+                                <Link className="font-[font_rk2] text-white border-2 text-[40px] cursor-pointer hover:text-orange-300 hover:border-orange-300 border-white rounded-[40px] h-[35px] w-[70px] flex items-center justify-center"
+                                    to={'/com_link'}>
+                                    FB
+                                </Link>
+                                <Link className="font-[font_rk2] text-white border-2 text-[40px] cursor-pointer hover:text-orange-300 hover:border-orange-300 border-white rounded-[40px] h-[35px] w-[70px] flex items-center justify-center"
+                                    to={'/com_link'}>
+                                    IG
+                                </Link>
+                                <Link className="font-[font_rk2] text-white border-2 text-[40px] cursor-pointer hover:text-orange-300 hover:border-orange-300 border-white rounded-[40px] h-[35px] w-[70px] flex items-center justify-center"
+                                    to={'/com_link'}>
+                                    IN
+                                </Link>
+                                <Link className="font-[font_rk2] text-white border-2 text-[40px] cursor-pointer hover:text-orange-300 hover:border-orange-300 border-white rounded-[40px] h-[35px] w-[70px] flex items-center justify-center"
+                                    to={'com_link'}>
+                                    BE
+                                </Link>
                             </div>
                         </div>
                     </div>
