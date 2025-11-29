@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BlogCard = (props) => {
     return (
@@ -16,9 +17,10 @@ const BlogCard = (props) => {
                     <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                     <div className='font-bold'>{props.date1}</div>
                 </div>
-                <div className='text-black flex items-center leading-none font-[font_rk2] text-[40px] mt-4 cursor-pointer hover:underline'>
+                <Link className='text-black flex items-center leading-none font-[font_rk2] text-[40px] mt-4 cursor-pointer hover:underline'
+                    to={'/com_link'}>
                     <div className=''>{props.text1}</div>
-                </div>
+                </Link>
             </div>
 
             {props.image2 && (
@@ -34,9 +36,10 @@ const BlogCard = (props) => {
                         <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                         <div className='font-bold'>{props.date2}</div>
                     </div>
-                    <div className='text-black flex items-center leading-none font-[font_rk2] text-[40px] mt-4 cursor-pointer hover:underline'>
+                    <Link className='text-black flex items-center leading-none font-[font_rk2] text-[40px] mt-4 cursor-pointer hover:underline'
+                        to={'/com_link'}>
                         <div className=''>{props.text2}</div>
-                    </div>
+                    </Link>
                 </div>
             )}
         </div>
