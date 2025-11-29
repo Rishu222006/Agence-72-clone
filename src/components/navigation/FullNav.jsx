@@ -120,16 +120,16 @@ const FullNav = () => {
                         </Link>
                         <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To See Everything</h2>
-                                <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To See Everything</h2>
-                                <img className='h-29 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To See Everything</h2>
+                                <img className='h-24 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To See Everything</h2>
+                                <img className='h-24 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg" />
                             </div>
                             <div className='moveX flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To See Everything</h2>
-                                <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To See Everything</h2>
-                                <img className='h-29 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To See Everything</h2>
+                                <img className='h-24 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To See Everything</h2>
+                                <img className='h-24 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg" />
                             </div>
                         </div>
                     </div>
@@ -139,16 +139,16 @@ const FullNav = () => {
                         </Link>
                         <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Know Everything</h2>
-                                <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/teamMembers/MEGGIE_640X290_2-640x290.jpg" />
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Know Everything</h2>
-                                <img className='h-29 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/teamMembers/blank_copie_2-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To Know Everything</h2>
+                                <img className='h-24 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/teamMembers/MEGGIE_640X290_2-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To Know Everything</h2>
+                                <img className='h-24 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/teamMembers/blank_copie_2-640x290.jpg" />
                             </div>
                             <div className='moveX flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Know Everything</h2>
-                                <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/teamMembers/MEGGIE_640X290_2-640x290.jpg" />
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Know Everything</h2>
-                                <img className='h-29 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/teamMembers/blank_copie_2-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To Know Everything</h2>
+                                <img className='h-24 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/teamMembers/MEGGIE_640X290_2-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To Know Everything</h2>
+                                <img className='h-24 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/teamMembers/blank_copie_2-640x290.jpg" />
                             </div>
                         </div>
                     </div>
@@ -158,16 +158,16 @@ const FullNav = () => {
                         </Link>
                         <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Send A Fax</h2>
-                                <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Send A Fax</h2>
-                                <img className='h-29 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To Send A Fax</h2>
+                                <img className='h-24 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To Send A Fax</h2>
+                                <img className='h-24 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg" />
                             </div>
                             <div className='moveX flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Send A Fax</h2>
-                                <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>To Send A Fax</h2>
-                                <img className='h-29 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To Send A Fax</h2>
+                                <img className='h-24 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>To Send A Fax</h2>
+                                <img className='h-24 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg" />
                             </div>
                         </div>
                     </div>
@@ -177,16 +177,16 @@ const FullNav = () => {
                         </Link>
                         <div className='moveLink pointer-events-none text-black bg-orange-400 flex top-0 absolute'>
                             <div className='moveX flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
-                                <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/blog/blogImg/50ff59cc0550df5b36543807a58db98c52e01a22274a317eafbfa5266941579b-640x290.png" />
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
-                                <img className='h-29 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/blog/blogImg/ier.com-16107673482102220.gif" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
+                                <img className='h-24 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/blog/blogImg/50ff59cc0550df5b36543807a58db98c52e01a22274a317eafbfa5266941579b-640x290.png" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
+                                <img className='h-24 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/blog/blogImg/ier.com-16107673482102220.gif" />
                             </div>
                             <div className='moveX flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
-                                <img className='h-29 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/blog/blogImg/50ff59cc0550df5b36543807a58db98c52e01a22274a317eafbfa5266941579b-640x290.png" />
-                                <h2 className='whitespace-nowrap font-[font_rk1] text-[6vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
-                                <img className='h-29 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/blog/blogImg/ier.com-16107673482102220.gif" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
+                                <img className='h-24 rounded-full shrink-0 w-70  object-cover' src="https://k72.ca/uploads/blog/blogImg/50ff59cc0550df5b36543807a58db98c52e01a22274a317eafbfa5266941579b-640x290.png" />
+                                <h2 className='whitespace-nowrap font-[font_rk1] text-[4vw] text-center leading-[0.8] p-2 uppercase'>Read The Articles</h2>
+                                <img className='h-24 rounded-full w-70 shrink-0 object-cover' src="https://k72.ca/uploads/blog/blogImg/ier.com-16107673482102220.gif" />
                             </div>
                         </div>
                     </div>
