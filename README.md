@@ -31,6 +31,11 @@
     - Tailwind CSS
     - GSAP Animation library.
 
+# Future Scope:
+    - Create contact page and integrate it.
+    - Make the animations smoother.
+    - Fix other layout and CSS changes.
+
 # File Structure:
 .
 ├── README.md
