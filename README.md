@@ -37,6 +37,7 @@
     - Fix other layout and CSS changes.
 
 # File Structure:
+```
 .
 ├── README.md
 ├── package.json
@@ -76,8 +77,7 @@
 │       ├── project.jsx
 │       ├── About.jsx
 │       └── Blog.jsx
-└── ...
-
+└── ```
 
 # Instructions to contribute/experiment:
 If you wish to contribute to this project or experiment, do not affect the main branch.
