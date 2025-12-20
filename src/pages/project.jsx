@@ -33,19 +33,18 @@ const Project = () => {
 
     gsap.registerPlugin(ScrollTrigger);
 
-    useGSAP(function () {
-        gsap.from('.hero', {
-            height: '100px',
-            stagger: {
-                amount: 0.5
-            },
-            scrollTrigger: {
-                trigger: '.lol',
-                start: 'top 100%',
-                end: 'top -150%',
-                scrub: true,
-            }
-        })
+    useGSAP(() => {
+        gsap.utils.toArray('.hero').forEach((row) => {
+            gsap.from(row, {
+                height: '100px',
+                scrollTrigger: {
+                    trigger: row,
+                    start: 'top 100%',
+                    end: 'top -150%',
+                    scrub: true,
+                }
+            });
+        });
     });
 
     return (
